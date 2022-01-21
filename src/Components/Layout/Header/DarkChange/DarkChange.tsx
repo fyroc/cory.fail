@@ -23,13 +23,9 @@ export const DarkChange = () => {
 		<a
 			href=""
 			onClick={handleClick}
-			className="hover:bg-theme-primary px-2 py-2 font-medium text-md rounded-md"
+			className="dark:text-theme-light text-theme-dark hover:bg-theme-primary hover:text-theme-secondary px-2 py-2 font-medium text-md rounded-md"
 		>
-			<i
-				className={`dark:text-theme-light light:text-theme-dark fas fa-${
-					darkMode ? 'sun' : 'moon'
-				}`}
-			></i>
+			<i className={`fas fa-${darkMode ? 'sun' : 'moon'}`}></i>
 		</a>
 	);
 };
