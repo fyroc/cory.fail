@@ -1,41 +1,32 @@
+import { Heading } from '../../Components/Typography/Heading/Heading';
+import pixelImage from '../../Components/Pages/Home/Px55.png';
+import { Paragraph } from '../../Components/Typography/Paragraph/Paragraph';
+
 function Home() {
 	return (
-		<>
-			<div className="py-8 flex items-stretch justify-center w-full">
-				<div className="w-2/3 md:pr-5 md:pt-0">
-					<img
-						src="https://i.ibb.co/0mrQW7c/2.png"
-						alt="img"
-						className="w-full"
-					/>
-					<div className="md:pt-16 pt-6">
-						<p className="md:text-6xl text-2xl font-bold md:leading-10 leading-6 text-theme-accent">
-							Purpose and Usage
-						</p>
-						<p className="md:text-xl text-base md:pt-8 pt-4 leading-normal text-theme-dark dark:text-theme-light hidden sm:block">
-							Convallis turpis erat tempus, viverra
-							aliquet. Nullam viverra nam auctor sit
-							ipsum malesuada a, duis volutpat.
-							Convallis turpis erat tempus, viverra
-							aliquet. Nullam viverra nam auctor sit
-							ipsum malesuada a, duis volutpat.
-						</p>
-						<p className="md:text-xl text-base md:pt-8 pt-4 leading-normal text-theme-dark dark:text-theme-light sm:hidden">
-							Convallis turpis erat tempus, viverra
-							aliquet. Nullam viverra nam auctor sit
-							ipsum malesuada.
-						</p>
-					</div>
-				</div>
-				<div className="w-1/3 overflow-hidden relative ml-2 md:ml-5">
-					<img
-						src="https://i.ibb.co/sj4dfWX/1.png"
-						alt="img"
-						className="w-full absolute inset-0 w-full h-full"
-					/>
+		<div className="py-8 flex items-stretch justify-center w-full">
+			<div className="w-2/3 md:pr-5 md:pt-0">
+				<div className="">
+					<Heading title="I build things." />
+					<Paragraph>
+						I've been a Software Engineer for over 10
+						years, and I love it. I can do just about
+						anything. I can do web, desktop, and cloud
+						applications. I also do both backend and
+						frontend development.
+					</Paragraph>
+					<Paragraph>
+						My favorite thing, and what I find most
+						rewarding, is leading a team of developers to
+						create a modern application using modern
+						techniques and practices.
+					</Paragraph>
 				</div>
 			</div>
-		</>
+			<div className="w-1/3 overflow-hidden relative rounded-md">
+				<img src={pixelImage} alt="img" className="w-full" />
+			</div>
+		</div>
 	);
 }
 
