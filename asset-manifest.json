@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/cory.fail/static/css/main.1f44b58b.css",
-    "main.js": "/cory.fail/static/js/main.eb4f245f.js",
+    "main.css": "/cory.fail/static/css/main.5bf61d9e.css",
+    "main.js": "/cory.fail/static/js/main.73d35e95.js",
     "static/js/787.bab04337.chunk.js": "/cory.fail/static/js/787.bab04337.chunk.js",
+    "static/media/Px55.png": "/cory.fail/static/media/Px55.91304a02dc1b54d8af06.png",
     "index.html": "/cory.fail/index.html",
-    "main.1f44b58b.css.map": "/cory.fail/static/css/main.1f44b58b.css.map",
-    "main.eb4f245f.js.map": "/cory.fail/static/js/main.eb4f245f.js.map",
+    "main.5bf61d9e.css.map": "/cory.fail/static/css/main.5bf61d9e.css.map",
+    "main.73d35e95.js.map": "/cory.fail/static/js/main.73d35e95.js.map",
     "787.bab04337.chunk.js.map": "/cory.fail/static/js/787.bab04337.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f44b58b.css",
-    "static/js/main.eb4f245f.js"
+    "static/css/main.5bf61d9e.css",
+    "static/js/main.73d35e95.js"
   ]
 }
