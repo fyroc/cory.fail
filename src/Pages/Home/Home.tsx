@@ -2,7 +2,7 @@ import { Heading } from '../../Components/Typography/Heading/Heading';
 import pixelImage from '../../Components/Pages/Home/Px55.png';
 import { Paragraph } from '../../Components/Typography/Paragraph/Paragraph';
 
-function Home() {
+export const Home = () => {
 	return (
 		<div className="py-8 flex items-stretch justify-center w-full">
 			<div className="w-2/3 md:pr-5 md:pt-0">
@@ -28,6 +28,4 @@ function Home() {
 			</div>
 		</div>
 	);
-}
-
-export default Home;
+};

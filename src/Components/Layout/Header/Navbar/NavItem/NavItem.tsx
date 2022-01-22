@@ -1,14 +1,16 @@
+import { Link, To } from 'react-router-dom';
+
 interface Props {
 	text: string;
-	link: string;
+	route: To;
 	selected: boolean;
 }
 
-export const NavItem = ({ text, link, selected }: Props) => {
+export const NavItem = ({ text, route, selected }: Props) => {
 	return (
-		<a
-			href={link}
-			className="
+		<Link to={route}>
+			<button
+				className="
                 dark:text-theme-light
                 text-theme-dark
                 hover:text-theme-secondary
@@ -21,8 +23,9 @@ export const NavItem = ({ text, link, selected }: Props) => {
                 text-sm
                 rounded-md
             "
-		>
-			{text}
-		</a>
+			>
+				{text}
+			</button>
+		</Link>
 	);
 };
