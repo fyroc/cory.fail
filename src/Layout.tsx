@@ -1,6 +1,7 @@
 import { Routes, Route, HashRouter } from 'react-router-dom';
 import { Home } from './Pages/Home/Home';
 import { About } from './Pages/About/About';
+import { Work } from './Pages/Work/Work';
 import { Header } from './Components/Layout/Header/Header';
 
 export const Layout = () => {
@@ -16,6 +17,10 @@ export const Layout = () => {
 								<Route
 									path="/about"
 									element={<About />}
+								/>
+								<Route
+									path="/work"
+									element={<Work />}
 								/>
 								<Route path="/" element={<Home />} />
 							</Routes>
