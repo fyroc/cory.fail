@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import { useState, MouseEvent } from 'react';
 
 export const DarkChange = () => {
 	const [darkMode, setDarkMode] = useState<boolean>(true);
 
-	const handleClick = (e: any) => {
+	const handleClick = (e: MouseEvent) => {
 		e.preventDefault();
 		setDarkMode(!darkMode);
 

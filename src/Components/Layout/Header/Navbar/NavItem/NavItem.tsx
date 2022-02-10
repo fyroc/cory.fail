@@ -3,10 +3,9 @@ import { Link, To } from 'react-router-dom';
 interface Props {
 	text: string;
 	route: To;
-	selected: boolean;
 }
 
-export const NavItem = ({ text, route, selected }: Props) => {
+export const NavItem = ({ text, route }: Props) => {
 	return (
 		<Link to={route}>
 			<button
