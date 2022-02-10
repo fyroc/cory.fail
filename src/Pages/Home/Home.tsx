@@ -11,15 +11,14 @@ export const Home = () => {
 					<Paragraph>
 						I've been a Software Engineer for over 10
 						years, and I love it. I can do just about
-						anything. I can do web, desktop, and cloud
-						applications. I also do both backend and
-						frontend development.
+						anything. I can do fullstack web, desktop, and
+						cloud applications.
 					</Paragraph>
 					<Paragraph>
-						My favorite thing, and what I find most
-						rewarding, is leading a team of developers to
-						create a modern application using modern
-						techniques and practices.
+						I have a very strong passion for music and
+						film, so I <strong>REALLY</strong> enjoy
+						working with artists, musicians, and content
+						creators.
 					</Paragraph>
 				</div>
 			</div>
