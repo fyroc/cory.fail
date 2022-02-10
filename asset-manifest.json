@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/cory.fail/static/css/main.997300e3.css",
-    "main.js": "/cory.fail/static/js/main.f8ca2b72.js",
+    "main.js": "/cory.fail/static/js/main.5b5a0567.js",
     "static/js/787.9bfee8fa.chunk.js": "/cory.fail/static/js/787.9bfee8fa.chunk.js",
     "static/media/Px55.png": "/cory.fail/static/media/Px55.91304a02dc1b54d8af06.png",
     "index.html": "/cory.fail/index.html",
     "main.997300e3.css.map": "/cory.fail/static/css/main.997300e3.css.map",
-    "main.f8ca2b72.js.map": "/cory.fail/static/js/main.f8ca2b72.js.map",
+    "main.5b5a0567.js.map": "/cory.fail/static/js/main.5b5a0567.js.map",
     "787.9bfee8fa.chunk.js.map": "/cory.fail/static/js/787.9bfee8fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.997300e3.css",
-    "static/js/main.f8ca2b72.js"
+    "static/js/main.5b5a0567.js"
   ]
 }
