@@ -2,7 +2,7 @@
 	"name": "coryfail",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://fyroc.github.io/cory.fail/",
+	"homepage": "https://fyroc.github.io",
 	"dependencies": {
 		"@craco/craco": "^6.4.3",
 		"@headlessui/react": "^1.4.3",
